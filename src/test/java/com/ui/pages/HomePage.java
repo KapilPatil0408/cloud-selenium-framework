@@ -35,8 +35,8 @@ public class HomePage extends BrowserUtility{
 		return loginPage;
 	}
 
-	public void quit() {
+	public void quit(WebDriver driver) {
 		
-		
+		driver.quit();
 	}
 }
